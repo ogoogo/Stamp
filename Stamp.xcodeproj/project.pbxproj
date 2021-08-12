@@ -15,6 +15,11 @@
 		CD2CC77326C5588F00E7EFEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2CC77126C5588F00E7EFEA /* LaunchScreen.storyboard */; };
 		CD2CC77E26C5588F00E7EFEA /* StampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2CC77D26C5588F00E7EFEA /* StampTests.swift */; };
 		CD2CC78926C5588F00E7EFEA /* StampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2CC78826C5588F00E7EFEA /* StampUITests.swift */; };
+		CD2CC79C26C55B2900E7EFEA /* hana.png in Resources */ = {isa = PBXBuildFile; fileRef = CD2CC79726C55B2900E7EFEA /* hana.png */; };
+		CD2CC79D26C55B2900E7EFEA /* onpu.png in Resources */ = {isa = PBXBuildFile; fileRef = CD2CC79826C55B2900E7EFEA /* onpu.png */; };
+		CD2CC79E26C55B2900E7EFEA /* hoshi.png in Resources */ = {isa = PBXBuildFile; fileRef = CD2CC79926C55B2900E7EFEA /* hoshi.png */; };
+		CD2CC79F26C55B2900E7EFEA /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = CD2CC79A26C55B2900E7EFEA /* background.png */; };
+		CD2CC7A026C55B2900E7EFEA /* shitumon.png in Resources */ = {isa = PBXBuildFile; fileRef = CD2CC79B26C55B2900E7EFEA /* shitumon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		CD2CC78426C5588F00E7EFEA /* StampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2CC78826C5588F00E7EFEA /* StampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StampUITests.swift; sourceTree = "<group>"; };
 		CD2CC78A26C5588F00E7EFEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD2CC79726C55B2900E7EFEA /* hana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hana.png; sourceTree = "<group>"; };
+		CD2CC79826C55B2900E7EFEA /* onpu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onpu.png; sourceTree = "<group>"; };
+		CD2CC79926C55B2900E7EFEA /* hoshi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hoshi.png; sourceTree = "<group>"; };
+		CD2CC79A26C55B2900E7EFEA /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		CD2CC79B26C55B2900E7EFEA /* shitumon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shitumon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,7 @@
 				CD2CC76F26C5588F00E7EFEA /* Assets.xcassets */,
 				CD2CC77126C5588F00E7EFEA /* LaunchScreen.storyboard */,
 				CD2CC77426C5588F00E7EFEA /* Info.plist */,
+				CD2CC79626C55B2900E7EFEA /* Stamp素材 */,
 			);
 			path = Stamp;
 			sourceTree = "<group>";
@@ -126,6 +137,18 @@
 				CD2CC78A26C5588F00E7EFEA /* Info.plist */,
 			);
 			path = StampUITests;
+			sourceTree = "<group>";
+		};
+		CD2CC79626C55B2900E7EFEA /* Stamp素材 */ = {
+			isa = PBXGroup;
+			children = (
+				CD2CC79726C55B2900E7EFEA /* hana.png */,
+				CD2CC79826C55B2900E7EFEA /* onpu.png */,
+				CD2CC79926C55B2900E7EFEA /* hoshi.png */,
+				CD2CC79A26C55B2900E7EFEA /* background.png */,
+				CD2CC79B26C55B2900E7EFEA /* shitumon.png */,
+			);
+			path = "Stamp素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +255,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD2CC77326C5588F00E7EFEA /* LaunchScreen.storyboard in Resources */,
+				CD2CC79E26C55B2900E7EFEA /* hoshi.png in Resources */,
+				CD2CC79F26C55B2900E7EFEA /* background.png in Resources */,
+				CD2CC79D26C55B2900E7EFEA /* onpu.png in Resources */,
 				CD2CC77026C5588F00E7EFEA /* Assets.xcassets in Resources */,
 				CD2CC76E26C5588E00E7EFEA /* Main.storyboard in Resources */,
+				CD2CC7A026C55B2900E7EFEA /* shitumon.png in Resources */,
+				CD2CC79C26C55B2900E7EFEA /* hana.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +465,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JNGQ362X2F;
 				INFOPLIST_FILE = Stamp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,6 +484,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JNGQ362X2F;
 				INFOPLIST_FILE = Stamp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
